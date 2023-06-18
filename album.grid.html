@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    </head>
+    <body>
+        <style>
+            { 
+                margin:0;
+                padding:0;
+                box-sizing; border-box;
+                
+            }
+            html,body{
+                background: #fff;
+                padding: 10px;
+            }
+            .wrapper {
+    display: grid;
+    grid-template-columns: 70px 70px;
+    grid-auto-rows: 70px 70px;
+    gap:10px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+.grid-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .grid-wrapper{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .grid-wrapper.wide{
+        grid-column: span 2;
+    }
+    .grid-wrapper .tall{
+        grid-row: span 2;
+    }
+
+    .grid-wrapper .big{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+
+        .grid-wrapper{
+            display: grid;
+            grid-gap:10px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-auto-rows: 200px;
+            grid-auto-flow: dense;
+        }
+
+img{
+    object-fit: cover;
+    height: auto;
+    vertical-align: middle;
+    max-width:100%;
+    display: inline-block;
+}
+ .wrapper{
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #f2f2f2;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows:250px;
+    grid-auto-flow:dense;
+ }
+
+           
+        </style>
+        <div class="wrapper">
+            <div class="box">
+                <img src="aulas dinamicas.png">
+            </div>
+            <div class="box">
+                <img src="camilla.jpg">
+            </div>
+            <div class="box">
+                <img src="einstein.jpg">
+            </div>
+            <div class="box">
+                <img src="enem 1024x465.jpg">
+            </div>
+            <div class="box">
+                <img src="monitoria.jpg">
+            </div>
+            <div class="box">
+                <img src="aulas dinamicas.png">
+            </div>
+            <div class="box">
+                <img src="camilla.jpg">
+            </div>
+            <div class="box">
+                <img src="einstein.jpg">
+            </div>
+            <div class="box">
+                <img src="enem 1024x465.jpg">
+            </div>
+            <div class="box">
+                <img src="monitoria.jpg">
+            </div>
+         </div>
+    </body>
+    </html>
